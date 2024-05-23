@@ -1,0 +1,28 @@
+.Modal_cls {    
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+  };
+.Modal {
+    color: whitesmoke;
+    padding: auto;
+    max-height: fit-content;
+    max-width: fit-content;
+    border: black 1px solid;    
+    border-radius: 5px;     
+    background-color: #242424;   
+    height: 300px;
+    width: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+};
+.chatbox{
+  border: #242424 1px solid;
+  border-radius: 5px;
+  height: 400px;
+  width: 300px;
+};
